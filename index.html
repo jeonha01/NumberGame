@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>너의 번호는</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <h1 class="pre-title">너의 번호는</h1>
+    <h6 class="title">your number</h6>
+    <h3 class="sub-title">아직 만난 적 없는 너를 찾고 있어</h3>
+    <div id="result-area">
+      <img src="image/너의 이름은 움짤19.gif" class="main-img">
+      <h1 class="result-text">찾아줄 거지?</h1>
+    </div>
+    <h2 id="chance-area">남은 기회</h2>
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-6">
+        <input type="number" id="user-input" class="form-control mb-10" placeholder="1부터 100까지만 입력!" />
+      </div>
+      <div class="col-md-2">
+        <button class="btn btn-success mb-2 button-style" id="play-button">Go!</button>
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-warning mt-3 button-style button-reset">리셋!</button>
+  <script src="main.js"></script>
+</body>
+
+</html>

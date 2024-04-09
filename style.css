@@ -1,0 +1,93 @@
+body {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "GrandifloraOne", cursive;
+    background-image: url(image/yournumber1.jpg);
+}
+
+.container {
+    border: 10px solid white;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(247, 243, 242, 0.7);
+}
+
+.border-line {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-style {
+    height: 80px;
+    width: 150px;
+    margin-top: 5px;
+    border-radius: 50px;
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+.pre-title {
+    font-size: 5vw;
+    font-weight: bold;
+    color: white;
+}
+
+.title {
+    font-size: 1vw;
+    font-weight: bold;
+    color: white;
+}
+
+.sub-title {
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+}
+
+.main-img {
+    width: 20vw;
+    height: 20vh
+}
+
+.form-control {
+    height: 80px;
+
+    font-size: 3vw;
+    margin-right: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 48rem) {
+    .pre-title {
+        font-size: 10vw;
+    }
+
+    .title {
+        font-size: 12vw;
+    }
+
+    .sub-title {
+        font-size: 11vw;
+    }
+
+    .form-control {
+        font-size: 8vw;
+        max-width: 500px;
+        margin-right: 0px;
+    }
+
+    .main-img {
+        width: 40vw;
+    }
+
+    .button-reset {
+        font-size: 5vw;
+        width: 80px;
+        height: 60px;
+    }
+}
